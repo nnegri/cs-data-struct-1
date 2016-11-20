@@ -1,0 +1,58 @@
+PART I: DISCUSSION QUESTIONS
+
+Runtime
+
+1) Workload is determined by how many animal crackers are in the box.
+
+2)
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n^2)
+O(2^n)
+
+Stacks and Queues
+
+1)  1: Stack
+    2: Queue
+    3: Stack
+
+2)  1: Getting your number called at the DMV
+    2: Trevor's print queue
+
+3)  1: Getting on/off an elevator
+    2: Recursion: call stacks
+
+Linked Lists
+
+1) Nodes:
+    Box containing the word "Apple": 
+        data: text "Apple"
+    Box containing the word "Berry": 
+        data: text "Berry"
+    Box containing the word "Cherry": 
+        data: text "Cherry"
+
+The head (box labled head) is pointing to the node with data "Apple". 
+There is no tail. 
+
+2) In a doubly-linked list, a node points to both the next node in the list, 
+and the previous one. In a singly-linked list, the nodes are only pointing in 
+one direction, to the next node. 
+
+3) A linked list does not keep track of every node, only where the head and 
+tail are pointing. If we know to which node the tail is pointing, we can simply 
+have that node now point to the new node we want to append. If there is no tail, 
+we need to traverse the entire linked list before appending.
+
+Trees
+
+1) food, Indian, Italian, Mexican, saag, tikka masala, lasagna, pizza, burrito
+
+2) food, Indian, saag, tikka masala, Italian, lasagna, pizza, Chicago-style
+
+3) In a binary search tree, the nodes are sorted when they are inserted into the 
+tree. Each node has a left and right child. While there is an upfront cost, the 
+rule for arrangement provides fast searching. 
+
